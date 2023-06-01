@@ -13,7 +13,33 @@ body{
     background: url(https://images.pexels.com/photos/975771/pexels-photo-975771.jpeg?cs=srgb&dl=pexels-david-ria%C3%B1o-cort%C3%A9s-975771.jpg&fm=jpg);
     background-size: cover;
 }
+/* header start */
+.header {
+    background-color: rgb(17, 84, 17);
+}
+.header_body {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header__logo {
+    width: 100px;
+}
+.header__menu {
+    width: 500px;
+    margin-left: 300px;
+}
+.header__menu li{
+    display: inline-block;
+    margin: 0 50px;
+}
+.header__menu a{
+    color: #fff;
+    font-size: 22px;
+}
+.header__button {
+}
 
+/* main content */
 .card-1 {
     background: linear-gradient(#000, #15be9a);
     width: 350px;
@@ -100,4 +126,30 @@ body{
     font-family: 'Rubik Puddles', cursive;
 }
 .card-4__music {
+}
+
+.myVideo {
+    margin-top: 50px;
+    background: linear-gradient(#05150b, #1c4316);
+    padding: 150px;
+}
+.video {
+    border-radius: 20px;
+    margin: 0 20px;
+}
+.video__button {
+    padding: 20px 40px;
+    margin-top: 140px;
+    background-color: #05150b;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.video__button:hover{
+    background-color: #123f36;
+    color: #dbcccc;
+    letter-spacing: 0px;
 }
